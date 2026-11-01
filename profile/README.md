@@ -11,10 +11,19 @@ cannot open it and deletes it once the other device has collected it.
 
 | Part | Repository | Licence |
 |---|---|---|
-| Protocol | [zerobyte-protocol](https://github.com/szymonmichalik/zerobyte-protocol): Relay Protocol v1 and test vectors | CC BY 4.0 |
-| Relay | [zerobyte-relay](https://github.com/szymonmichalik/zerobyte-relay): Node and Cloudflare Workers | AGPL-3.0 |
-| SDKs | [Swift](https://github.com/szymonmichalik/zerobyte-swift-sdk), [Android](https://github.com/szymonmichalik/zerobyte-android-sdk), [JavaScript](https://github.com/szymonmichalik/zerobyte-js-sdk), [.NET](https://github.com/szymonmichalik/zerobyte-dotnet-sdk) | Apache-2.0 |
-| Documentation | [zerobyte-docs](https://github.com/szymonmichalik/zerobyte-docs) | CC BY 4.0 |
+| Protocol | [zerobyte-protocol](https://github.com/zerobyte-cloud/zerobyte-protocol): Relay Protocol v1 and test vectors | CC BY 4.0 |
+| Relay | [zerobyte-relay](https://github.com/zerobyte-cloud/zerobyte-relay): Node and Cloudflare Workers | AGPL-3.0 |
+| SDKs | [Swift](https://github.com/zerobyte-cloud/zerobyte-swift-sdk), [Android](https://github.com/zerobyte-cloud/zerobyte-android-sdk), [JavaScript](https://github.com/zerobyte-cloud/zerobyte-js-sdk), [.NET](https://github.com/zerobyte-cloud/zerobyte-dotnet-sdk) | Apache-2.0 |
+| Documentation | [zerobyte-docs](https://github.com/zerobyte-cloud/zerobyte-docs) | CC BY 4.0 |
+
+**Hosted relay.** Run the relay yourself, or use relay.zerobyte.cloud, operated by ZeroByte Cloud
+under its [Terms of Service](https://zerobyte.cloud/terms). There, Cloudflare's storage keeps a
+30-day history of each mailbox for recovery after a failure; it holds the same sealed envelopes and
+nothing more. A relay you run yourself keeps whatever its own storage keeps.
 
 Website: [zerobyte.cloud](https://zerobyte.cloud) ·
-Documentation: [docs.zerobyte.cloud](https://docs.zerobyte.cloud)
+Documentation: [docs.zerobyte.cloud](https://docs.zerobyte.cloud) ·
+Contact: [hello@zerobyte.cloud](mailto:hello@zerobyte.cloud) ·
+Security: [security@zerobyte.cloud](mailto:security@zerobyte.cloud) ·
+Abuse: [abuse@zerobyte.cloud](mailto:abuse@zerobyte.cloud) ·
+Legal and authorities: [legal@zerobyte.cloud](mailto:legal@zerobyte.cloud)
